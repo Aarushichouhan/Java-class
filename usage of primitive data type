@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter an integer:");
+    int n=sc.nextInt();
+    System.out.println("The integer is"+n);
+    System.out.println("Enter float value :");
+    float m=sc.nextFloat();
+    System.out.println("Floating value is:"+m);
+    System.out.println("Enter the Boolean value:");
+    boolean t=sc.nextBoolean();
+    System.out.println("The boolean value is "+t);
+    
+	}
+}
+ 
