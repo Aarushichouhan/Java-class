@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in); 
+	System.out.println("Upper-case alphabet from A to Z are:");
+	char ch;
+	for(ch='A';ch<='Z';ch++)
+	{
+	System.out.print(ch+" ");
+	
+	}
+}
+}
