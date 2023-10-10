@@ -1,0 +1,28 @@
+class Animal {
+    public void eat(){
+    
+	        System.out.println("i can eat");
+	   
+	    }
+}
+class Dog extends Animals 
+{
+public void eat()
+{
+    super.eat();
+    System.out.println("i eat dog food");
+}
+public void bark()
+{
+    System.out.println("i can bark");
+}
+class public static void main (String[] args) {
+    class main
+    {
+      public static void main (String[] args) 
+      labrador.eat();
+      labrador.bark();
+    }
+    
+}
+
