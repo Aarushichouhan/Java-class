@@ -1,0 +1,17 @@
+interface solution {
+    public void hello();
+    public void welcome();
+}
+public class A implements solution {
+    public void hello(){
+        System.out.println("hello world");
+    }
+    public void welcome(){
+        System.out.println("welcome to edureka");
+    }
+    public static void main(String[]args){
+        A a=new A();
+        a.hello();
+        a.welcome();
+    }
+}
