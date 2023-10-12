@@ -1,0 +1,18 @@
+pulic class constructorchain
+ 
+{
+    constructorchain()
+    {
+        this("hello");
+    }
+   System.out,println("default constructor called") 
+}
+constructorchain(String str)
+{
+        System.out.println("parameterized constructor called");   
+}
+	public static void main(String[] args) 
+	{
+	   constructorchain cc= new constructorchain();
+	}
+}
