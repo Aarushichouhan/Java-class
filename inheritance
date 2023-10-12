@@ -1,0 +1,30 @@
+public class Automobile
+{ 
+    public void start(){
+        System.out.println("Engine starts running");
+        
+    }
+    public void stop(){
+    System.out.println("Engine stops running");
+    }
+    public void seating(){}
+        
+}
+class car extends Automobile{
+    public void no_of_tyres(){
+         System.out.println("there are 4 tyres");
+    }
+    public void fuel(){
+        System.out.println("petrol");
+        
+    }
+     public void fuel(String fuel){
+        System.out.println("also runs on diesel");
+        
+     }
+      public void seating(){
+          System.out.println("4 seating");
+          
+      }
+}
+class bike
