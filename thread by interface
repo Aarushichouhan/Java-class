@@ -1,0 +1,14 @@
+public class Main implement Runnable
+{
+    public void run()
+    System.out.println("this code is running in thread")
+}
+public static void main(String[]args)
+{
+    Main obj = new main();
+    Thread thread = new Thread(ob);
+    thread.start();
+    System.out.println("this code is running outside of thread")
+    
+}
+}
