@@ -1,0 +1,21 @@
+public class Main implements Runnable
+{
+    public void run()
+    {
+        System.out.println("welcome to csit");
+    }
+	public static void main(String[] args) 
+	{
+	    Main t1 = new Main();
+	    Main t2 = new Main();
+	    Main t3 = new Main();
+	    Thread n1 = new Thread(t1);
+         Thread n2 = new Thread(t2);
+          Thread n3 = new Thread(t3);
+	    n1.start();
+	    n2.start();
+	    n3.start();
+	    
+	
+	}
+}
