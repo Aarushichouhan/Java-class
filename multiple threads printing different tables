@@ -1,0 +1,30 @@
+class TablePrinter extends Thread {
+    private int start;
+    private int end;
+
+    public TablePrinter(int start, int end) {
+        this.start = start;
+        this.end = end;
+    }
+
+    public void run() {
+        for (int i = start; i <= end; i++) {
+            System.out.println("2 * " + i + " = " + (2 * i));
+        }
+    }
+
+    public static void main(String[] args) {
+        TablePrinter thread1 = new TablePrinter(1, 5);
+        TablePrinter thread2 = new TablePrinter(6, 10);
+
+        thread1.start();
+        thread2.start();
+
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
